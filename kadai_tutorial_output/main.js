@@ -73,9 +73,9 @@ const rankCheck = score => {
   if(score < 100) {
     text = `あなたのランクはCです。\nBランクまであと${100 - score}文字です。`;
   } else if (score < 200) {
-    text = `あなたのランクはBです。\nBランクまであと${200 - score}文字です。`;
+    text = `あなたのランクはBです。\nAランクまであと${200 - score}文字です。`;
   } else if (score < 300) {
-    text = `あなたのランクはAです。\nBランクまであと${300 - score}文字です。`;
+    text = `あなたのランクはAです。\nSランクまであと${300 - score}文字です。`;
   } else if (score >= 300) {
     text = `あなたのランクはSです。\nおめでとうございます！`;
   }
